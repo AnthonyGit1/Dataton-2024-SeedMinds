@@ -1,16 +1,16 @@
-```markdown
 # 📊 Dataton 2024 - Dashboard de Análisis Social
 
 [![Banner SeedMinds](./public/images/banner.png)](https://github.com/JaciLucasEulogio/dataton-2024)
 
 ## 📑 Índice
-* [📌 Descripción](#-descripción)
-* [📊 Dashboards](#-dashboards)
-* [🛠️ Tecnologías](#️-tecnologías)
-* [📂 Estructura](#-estructura)
-* [👥 Equipo](#-equipo)
-* [🚀 Instalación](#-instalación)
-* [📄 Licencia](#-licencia)
+
+- [📌 Descripción](#descripción)
+- [📊 Dashboards](#dashboards)
+- [🛠️ Tecnologías](#tecnologías)
+- [📂 Estructura](#estructura)
+- [👥 Equipo](#equipo)
+- [🚀 Instalación](#instalación)
+- [📄 Licencia](#licencia)
 
 ## 📌 Descripción
 
@@ -19,50 +19,57 @@ Dashboard interactivo desarrollado para el Dataton 2024, enfocado en el análisi
 ## 📊 Dashboards
 
 ### 1. Dashboard de Postulantes
-* 👥 Análisis demográfico
-* 🗺️ Distribución por departamentos
-* ⚖️ Estadísticas por género
-* 📝 Estado de registro CONADIS
+
+- 👥 Análisis demográfico
+- 🗺️ Distribución por departamentos
+- ⚖️ Estadísticas por género
+- 📝 Estado de registro CONADIS
 
 ### 2. Dashboard de Educación
-* 📚 Top 10 carreras más demandadas
-* 🏛️ Distribución por instituciones
-* 🎓 Análisis de grados académicos
-* 📊 Proporción de carreras principales
+
+- 📚 Top 10 carreras más demandadas
+- 🏛️ Distribución por instituciones
+- 🎓 Análisis de grados académicos
+- 📊 Proporción de carreras principales
 
 ### 3. Dashboard de Discapacidad
-* 📋 Distribución por causa
-* 📊 Niveles de dificultad
-* 👥 Análisis por edad
-* 📈 Puntuación promedio por causa
+
+- 📋 Distribución por causa
+- 📊 Niveles de dificultad
+- 👥 Análisis por edad
+- 📈 Puntuación promedio por causa
 
 ### 4. Dashboard de Experiencia
-* ⏱️ Duración de experiencias
-* 🏢 Análisis por empresas
-* 💰 Distribución salarial
-* 📈 Tendencias laborales
+
+- ⏱️ Duración de experiencias
+- 🏢 Análisis por empresas
+- 💰 Distribución salarial
+- 📈 Tendencias laborales
 
 ### 5. Dashboard de Vacantes
-* 🎯 Ofertas por sector
-* 🗺️ Distribución geográfica
-* 💲 Análisis salarial
-* 📋 Requisitos más demandados
+
+- 🎯 Ofertas por sector
+- 🗺️ Distribución geográfica
+- 💲 Análisis salarial
+- 📋 Requisitos más demandados
 
 ## 🛠️ Tecnologías
 
 ### Frontend
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Recharts](https://img.shields.io/badge/Recharts-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 ### Análisis de Datos
+
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## 📂 Estructura
 
-```
+````plaintext
 dashboard-dataton/
 ├── 📁 public/
 │   ├── 📊 data/               # JSON para dashboards
@@ -75,13 +82,12 @@ dashboard-dataton/
 ├── 📁 src/
 │   ├── 📊 components/
 │   │   ├── charts/           # Gráficos
-│   │   ├── layout/          # Estructura
-│   │   ├── pages/           # Páginas
-│   │   └── ui/              # Interfaz
+│   │   ├── layout/           # Estructura
+│   │   ├── pages/            # Páginas
+│   │   └── ui/               # Interfaz
 │   ├── App.jsx
 │   └── main.jsx
 └── 📝 README.md
-```
 
 ## 👥 Equipo SeedMinds
 
@@ -136,15 +142,17 @@ dashboard-dataton/
 1. Clona el repositorio
 ```bash
 git clone https://github.com/JaciLucasEulogio/dataton-2024.git
-```
+````
 
 2. Instala las dependencias
+
 ```bash
 cd dataton-2024
 npm install
 ```
 
 3. Inicia el servidor de desarrollo
+
 ```bash
 npm run dev
 ```
