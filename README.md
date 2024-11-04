@@ -1,6 +1,6 @@
 # 📊 Dataton 2024 - Dashboard de Análisis Social
 
-[![Banner SeedMinds](./public/images/banner.png)](https://github.com/JaciLucasEulogio/dataton-2024)
+[![QhatuLab](./public/images/logo.png)]
 
 ## 📑 Índice
 
@@ -8,9 +8,8 @@
 - [📊 Dashboards](#dashboards)
 - [🛠️ Tecnologías](#tecnologías)
 - [📂 Estructura](#estructura)
-- [👥 Equipo](#equipo)
 - [🚀 Instalación](#instalación)
-- [📄 Licencia](#licencia)
+- [👥 Equipo](#equipo)
 
 ## 📌 Descripción
 
@@ -90,6 +89,26 @@ dashboard-dataton/
 └── 📝 README.md
 ````
 
+## 🚀 Instalación
+
+1. Clona el repositorio
+```bash
+git clone https://github.com/AnthonyGit1/Dataton-2024-SeedMinds.git
+````
+
+2. Instala las dependencias
+
+```bash
+cd Dataton-2024-SeedMinds
+npm install
+```
+
+3. Inicia el servidor de desarrollo
+
+```bash
+npm run dev
+```
+
 ## 👥 Equipo SeedMinds
 
 <div align="center">
@@ -101,37 +120,11 @@ dashboard-dataton/
 
 </div>
 
-## 🚀 Instalación
-
-1. Clona el repositorio
-```bash
-git clone https://github.com/JaciLucasEulogio/dataton-2024.git
-````
-
-2. Instala las dependencias
-
-```bash
-cd dataton-2024
-npm install
-```
-
-3. Inicia el servidor de desarrollo
-
-```bash
-npm run dev
-```
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
-
 ---
 
 <div align="center">
 
-### Desarrollado con 💜 por el equipo SeedMinds
-
-[![Universidad Continental](https://img.shields.io/badge/Universidad-Continental-blue?style=for-the-badge)](https://ucontinental.edu.pe/)
+Desarrollado con ❤️ por el equipo SeedMinds
 
 </div>
 ```
