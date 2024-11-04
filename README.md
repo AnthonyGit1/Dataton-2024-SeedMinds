@@ -88,53 +88,17 @@ dashboard-dataton/
 │   ├── App.jsx
 │   └── main.jsx
 └── 📝 README.md
+````
 
 ## 👥 Equipo SeedMinds
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/AnthonyGit1">
-          <img src="./public/images/anthony.jpg" width="100px;" alt="Anthony Rosas"/><br />
-          <b>Anthony Rosas</b>
-        </a><br />
-        <sub>Desarrollador Backend</sub><br />
-        <a href="https://github.com/AnthonyGit1">
-          <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="70px"/>
-        </a>
-        <a href="https://www.linkedin.com/in/anthony-luis-rosas-pisco-75b53b273">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="70px"/>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/joshRiveros">
-          <img src="./public/images/josh.jpg" width="100px;" alt="Joshelyn Riveros"/><br />
-          <b>Joshelyn Riveros</b>
-        </a><br />
-        <sub>Especialista en Calidad y UX</sub><br />
-        <a href="https://github.com/joshRiveros">
-          <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="70px"/>
-        </a>
-        <a href="https://www.linkedin.com/in/joshelyn-riveros-pariona-380160145">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="70px"/>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/JaciLucasEulogio">
-          <img src="./public/images/jaci.png" width="100px;" alt="Jaci Lucas"/><br />
-          <b>Jaci Lucas</b>
-        </a><br />
-        <sub>Desarrolladora Frontend</sub><br />
-        <a href="https://github.com/JaciLucasEulogio">
-          <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="70px"/>
-        </a>
-        <a href="https://www.linkedin.com/in/jaci-lucas">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="70px"/>
-        </a>
-      </td>
-    </tr>
-  </table>
+
+| <img src="https://i.ibb.co/1qQtV9j/anthony-1.jpg" width="150" height="150" style="border-radius: 50%"> | <img src="https://i.ibb.co/c2xQxg7/img.png" width="150" height="150" style="border-radius: 50%"> | <img src="https://i.ibb.co/f9ZMQwm/joshhh2.jpg" width="150" height="150" style="border-radius: 50%"> |
+|:---:|:---:|:---:|
+| **Anthony Rosas** | **Jaci Lucas** | **Joshelyn Riveros** |
+| Backend Dev | Frontend Dev | UX and QA |
+
 </div>
 
 ## 🚀 Instalación
