@@ -1,6 +1,10 @@
 # 📊 Dataton 2024 - Dashboard de Análisis Social
 
-[![QhatuLab](./public/images/logo.png)]
+<div align="center">
+
+![QhatuLab](./public/images/logo.png)
+
+</div>
 
 ## 📑 Índice
 
@@ -127,4 +131,3 @@ npm run dev
 Desarrollado con ❤️ por el equipo SeedMinds
 
 </div>
-```
