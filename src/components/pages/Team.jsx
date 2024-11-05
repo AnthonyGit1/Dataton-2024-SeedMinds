@@ -53,38 +53,38 @@ const Team = () => {
   const teamMembers = [
     {
       name: 'Anthony Rosas',
-      role: 'Desarrollador Backend',
+      role: 'Desarrollador Web (Web Developer)',
       image: '/images/anthony.jpg',
       githubUrl: 'https://github.com/AnthonyGit1',
       linkedinUrl: 'https://www.linkedin.com/in/anthony-luis-rosas-pisco-75b53b273',
       tasks: [
-        'Gestión de Bases de Datos',
-        'Implementación de APIs',
-        'Mantenimiento del Servidor'
+        'Desarrollar interfaz de usuario.',
+        'Integrar visualizaciones interactivas.',
+        'Asegurar responsividad y rendimiento.'
       ]
     },
     {
       name: 'Joshelyn Riveros',
-      role: 'Especialista en Calidad y UX',
+      role: 'Ingeniero de Datos (Data Engineer)',
       image: '/images/josh.jpg',
       githubUrl: 'https://github.com/joshRiveros',
       linkedinUrl: 'https://www.linkedin.com/in/joshelyn-riveros-pariona-380160145',
       tasks: [
-        'Documentar el flujo del proyecto',
-        'Validar la plataforma con usuarios',
-        'Crear guías y tutoriales para el usuario'
+        'Construir sistemas de datos.',
+        'Implementar pipelines de datos.',
+        'Optimizar bases de datos.'
       ]
     },
     {
       name: 'Jaci Lucas',
-      role: 'Desarrolladora Frontend',
+      role: 'Científico de Datos (Data Scientist)',
       image: '/images/jaci.png',
       githubUrl: 'https://github.com/JaciLucasEulogio',
       linkedinUrl: 'https://www.linkedin.com/in/jaci-lucas',
       tasks: [
-        'Desarrollo de Interfaces de Usuario',
-        'Optimización de Performance',
-        'Colaboración en Diseño UX/UI'
+        'Analizar datos y tendencias.',
+        'Desarrollar modelos predictivos.',
+        'Comunicar hallazgos y visualizaciones.'
       ]
     }
   ];

@@ -9,6 +9,7 @@ import DiscapacidadDashboard from './components/pages/dashboards/DiscapacidadDas
 import ExperienciaDashboard from './components/pages/dashboards/ExperienciaDashboard';
 import EducacionDashboard from './components/pages/dashboards/EducacionDashboard';
 import PostulantesDashboard from './components/pages/dashboards/PostulantesDashboard';
+import GeneralDashboard from './components/pages/dashboards/GeneralDashboard';
 
 const Layout = ({ children }) => {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/dashboard/experiencia" element={<ExperienciaDashboard />} />
           <Route path="/dashboard/educacion" element={<EducacionDashboard />} />
           <Route path="/dashboard/postulantes" element={<PostulantesDashboard />} />
+          <Route path="/dashboard/general" element={<GeneralDashboard />} />
         </Routes>
       </Layout>
     </Router>

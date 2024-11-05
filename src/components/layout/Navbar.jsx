@@ -34,6 +34,11 @@ const Navbar = () => {
       name: 'Análisis de Postulantes',
       path: '/dashboard/postulantes',
       description: 'Perfil de candidatos'
+    },
+    {
+      name: 'Análisis General',
+      path: '/dashboard/general',
+      description: 'Resumen de datos'
     }
   ];
 

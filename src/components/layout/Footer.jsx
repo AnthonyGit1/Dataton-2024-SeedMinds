@@ -100,6 +100,11 @@ const Footer = () => {
                   Análisis de Postulantes
                 </Link>
               </li>
+              <li>
+                <Link to="/dashboard/general" className="text-gray-600 hover:text-purple-600 transition-colors">
+                  Análisis General
+                </Link>
+              </li>
             </ul>
           </div>
 
