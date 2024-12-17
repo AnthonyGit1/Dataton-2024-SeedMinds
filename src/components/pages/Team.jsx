@@ -1,8 +1,7 @@
-// src/components/pages/Team.jsx
 import React from 'react';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Instagram } from 'lucide-react';
 
-const TeamMember = ({ name, role, tasks, image, githubUrl, linkedinUrl }) => (
+const TeamMember = ({ name, role, tasks, image, githubUrl, linkedinUrl, instagramUrl }) => (
   <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
     <div className="aspect-square overflow-hidden bg-gray-100">
       <img
@@ -42,6 +41,17 @@ const TeamMember = ({ name, role, tasks, image, githubUrl, linkedinUrl }) => (
             title="LinkedIn Profile"
           >
             <Linkedin className="h-5 w-5" />
+          </a>
+        )}
+        {instagramUrl && (
+          <a 
+            href={instagramUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-pink-600 transition-colors p-2 hover:bg-pink-50 rounded-full"
+            title="Instagram Profile"
+          >
+            <Instagram className="h-5 w-5" />
           </a>
         )}
       </div>
@@ -86,6 +96,29 @@ const Team = () => {
         'Desarrollar modelos predictivos.',
         'Comunicar hallazgos y visualizaciones.'
       ]
+    },
+    {
+      name: 'Janeht Zoraida',
+      role: 'Experta en Transformación Profesional',
+      image: '/images/janeht.jpg',
+      linkedinUrl: 'https://www.linkedin.com/in/janeht-zoraida-b1060a215',
+      instagramUrl: 'https://www.instagram.com/janehtzoraida/?igsh=MWRjdW9vc2Z5ejNuZw%3D%3D',
+      tasks: [
+        'Dominio de Estrategias Psicológicas Aplicadas al Empleo.',
+        'Enfoque en la Resiliencia y el Desarrollo Personal.',
+        'Orientación Estratégica para el Desarrollo Profesional.'
+      ]
+    },
+    {
+      name: 'Anyelo Ccorimanya',
+      role: 'Asesor Legal',
+      image: '/images/anyelo.jpg',
+      linkedinUrl: 'https://www.linkedin.com/in/anyelo-anderson-ccorimanya-gomez-9a1620316',
+      tasks: [
+        'Asesoramiento en Derecho Empresarial.',
+        'Gestión de Propiedad Intelectual.',
+        'Resolución de Conflictos y Litigios.'
+      ]
     }
   ];
 
@@ -103,10 +136,18 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {teamMembers.map((member, index) => (
-            <TeamMember key={index} {...member} />
-          ))}
+        <div className="flex flex-col items-center gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 w-full">
+            {teamMembers.slice(0, 3).map((member, index) => (
+              <TeamMember key={index} {...member} />
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full sm:w-3/5">
+            {teamMembers.slice(3, 5).map((member, index) => (
+              <TeamMember key={index} {...member} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
